@@ -5,7 +5,7 @@ import { ConnectedRouter } from 'connected-react-router';
 import { Switch, Route } from 'react-router';
 import 'sanitize.css/sanitize.css';
 
-import { store, history } from './store';
+import { store, history } from './store/store';
 import App from './containers/app';
 
 import './index.css';

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Component renders 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Messages>
+    <ul
+      data-test="messageList"
+    >
+      <li
+        key="cd445e6d-e514-424f-ba8f-16ec842002c6"
+      >
+        Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+      </li>
+    </ul>
+  </Messages>
+</Provider>
+`;

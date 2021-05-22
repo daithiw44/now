@@ -8,7 +8,3 @@ function randomDelayPromise(data) {
 export function getMessages() {
   return randomDelayPromise(require('./messages.json'));
 }
-
-export function getMembers() {
-  return randomDelayPromise(require('./members.json'));
-}
