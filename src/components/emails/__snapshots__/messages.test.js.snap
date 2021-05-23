@@ -14,15 +14,413 @@ exports[`Messages Component renders 1`] = `
   }
 >
   <Messages>
-    <ul
+    <WithStyles(ForwardRef(List))
+      className="makeStyles-root-1"
       data-test="messageList"
     >
-      <li
-        key="cd445e6d-e514-424f-ba8f-16ec842002c6"
+      <ForwardRef(List)
+        className="makeStyles-root-1"
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+        data-test="messageList"
       >
-        Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
-      </li>
-    </ul>
+        <ul
+          className="MuiList-root makeStyles-root-1 MuiList-padding"
+          data-test="messageList"
+        >
+          <Memo(Grid)
+            emails={
+              Array [
+                Object {
+                  "avatar": undefined,
+                  "dtFormat": "February 09, 2017, 04:27",
+                  "email": undefined,
+                  "firstName": undefined,
+                  "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+                  "lastName": undefined,
+                  "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+                  "timestamp": "2017-02-09T04:27:38Z",
+                  "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+                },
+              ]
+            }
+          >
+            <WithStyles(ForwardRef(ListItem))
+              alignItems="flex-start"
+              key="cd445e6d-e514-424f-ba8f-16ec842002c6"
+            >
+              <ForwardRef(ListItem)
+                alignItems="flex-start"
+                classes={
+                  Object {
+                    "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                    "button": "MuiListItem-button",
+                    "container": "MuiListItem-container",
+                    "dense": "MuiListItem-dense",
+                    "disabled": "Mui-disabled",
+                    "divider": "MuiListItem-divider",
+                    "focusVisible": "Mui-focusVisible",
+                    "gutters": "MuiListItem-gutters",
+                    "root": "MuiListItem-root",
+                    "secondaryAction": "MuiListItem-secondaryAction",
+                    "selected": "Mui-selected",
+                  }
+                }
+              >
+                <li
+                  className="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+                  disabled={false}
+                >
+                  <WithStyles(ForwardRef(Tooltip))
+                    arrow={true}
+                    key=".0"
+                  >
+                    <ForwardRef(Tooltip)
+                      arrow={true}
+                      classes={
+                        Object {
+                          "arrow": "MuiTooltip-arrow",
+                          "popper": "MuiTooltip-popper",
+                          "popperArrow": "MuiTooltip-popperArrow",
+                          "popperInteractive": "MuiTooltip-popperInteractive",
+                          "tooltip": "MuiTooltip-tooltip",
+                          "tooltipArrow": "MuiTooltip-tooltipArrow",
+                          "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                          "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                          "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                          "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                          "touch": "MuiTooltip-touch",
+                        }
+                      }
+                    >
+                      <WithStyles(ForwardRef(ListItemAvatar))>
+                        <ForwardRef(ListItemAvatar)
+                          classes={
+                            Object {
+                              "alignItemsFlexStart": "MuiListItemAvatar-alignItemsFlexStart",
+                              "root": "MuiListItemAvatar-root",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+                          >
+                            <WithStyles(ForwardRef(Avatar))
+                              alt="undefined undefined"
+                              title="undefined undefined"
+                            >
+                              <ForwardRef(Avatar)
+                                alt="undefined undefined"
+                                classes={
+                                  Object {
+                                    "circle": "MuiAvatar-circle",
+                                    "circular": "MuiAvatar-circular",
+                                    "colorDefault": "MuiAvatar-colorDefault",
+                                    "fallback": "MuiAvatar-fallback",
+                                    "img": "MuiAvatar-img",
+                                    "root": "MuiAvatar-root",
+                                    "rounded": "MuiAvatar-rounded",
+                                    "square": "MuiAvatar-square",
+                                  }
+                                }
+                                title="undefined undefined"
+                              >
+                                <div
+                                  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+                                  title="undefined undefined"
+                                >
+                                  <ForwardRef(PersonIcon)
+                                    className="MuiAvatar-fallback"
+                                  >
+                                    <WithStyles(ForwardRef(SvgIcon))
+                                      className="MuiAvatar-fallback"
+                                    >
+                                      <ForwardRef(SvgIcon)
+                                        className="MuiAvatar-fallback"
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiSvgIcon-colorAction",
+                                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                            "colorError": "MuiSvgIcon-colorError",
+                                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                            "root": "MuiSvgIcon-root",
+                                          }
+                                        }
+                                      >
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root MuiAvatar-fallback"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                          />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef(PersonIcon)>
+                                </div>
+                              </ForwardRef(Avatar)>
+                            </WithStyles(ForwardRef(Avatar))>
+                          </div>
+                        </ForwardRef(ListItemAvatar)>
+                      </WithStyles(ForwardRef(ListItemAvatar))>
+                      <ForwardRef(Popper)
+                        className="MuiTooltip-popper MuiTooltip-popperArrow"
+                        id={null}
+                        open={false}
+                        placement="bottom"
+                        popperOptions={
+                          Object {
+                            "modifiers": Object {
+                              "arrow": Object {
+                                "element": null,
+                                "enabled": false,
+                              },
+                            },
+                          }
+                        }
+                        transition={true}
+                      />
+                    </ForwardRef(Tooltip)>
+                  </WithStyles(ForwardRef(Tooltip))>
+                  <WithStyles(ForwardRef(ListItemText))
+                    key=".1"
+                    primary="February 09, 2017, 04:27"
+                    secondary={
+                      <React.Fragment>
+                        <ForwardRef(WithStyles)
+                          color="textPrimary"
+                          component="span"
+                          variant="body2"
+                        >
+                           
+                           -
+                        </ForwardRef(WithStyles)>
+                        <span>
+                           
+                          Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                           
+                        </span>
+                      </React.Fragment>
+                    }
+                  >
+                    <ForwardRef(ListItemText)
+                      classes={
+                        Object {
+                          "dense": "MuiListItemText-dense",
+                          "inset": "MuiListItemText-inset",
+                          "multiline": "MuiListItemText-multiline",
+                          "primary": "MuiListItemText-primary",
+                          "root": "MuiListItemText-root",
+                          "secondary": "MuiListItemText-secondary",
+                        }
+                      }
+                      primary="February 09, 2017, 04:27"
+                      secondary={
+                        <React.Fragment>
+                          <ForwardRef(WithStyles)
+                            color="textPrimary"
+                            component="span"
+                            variant="body2"
+                          >
+                             
+                             -
+                          </ForwardRef(WithStyles)>
+                          <span>
+                             
+                            Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                             
+                          </span>
+                        </React.Fragment>
+                      }
+                    >
+                      <div
+                        className="MuiListItemText-root MuiListItemText-multiline"
+                      >
+                        <WithStyles(ForwardRef(Typography))
+                          className="MuiListItemText-primary"
+                          component="span"
+                          display="block"
+                          variant="body1"
+                        >
+                          <ForwardRef(Typography)
+                            className="MuiListItemText-primary"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
+                            component="span"
+                            display="block"
+                            variant="body1"
+                          >
+                            <span
+                              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                            >
+                              February 09, 2017, 04:27
+                            </span>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                        <WithStyles(ForwardRef(Typography))
+                          className="MuiListItemText-secondary"
+                          color="textSecondary"
+                          display="block"
+                          variant="body2"
+                        >
+                          <ForwardRef(Typography)
+                            className="MuiListItemText-secondary"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
+                            color="textSecondary"
+                            display="block"
+                            variant="body2"
+                          >
+                            <p
+                              className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                            >
+                              <WithStyles(ForwardRef(Typography))
+                                color="textPrimary"
+                                component="span"
+                                variant="body2"
+                              >
+                                <ForwardRef(Typography)
+                                  classes={
+                                    Object {
+                                      "alignCenter": "MuiTypography-alignCenter",
+                                      "alignJustify": "MuiTypography-alignJustify",
+                                      "alignLeft": "MuiTypography-alignLeft",
+                                      "alignRight": "MuiTypography-alignRight",
+                                      "body1": "MuiTypography-body1",
+                                      "body2": "MuiTypography-body2",
+                                      "button": "MuiTypography-button",
+                                      "caption": "MuiTypography-caption",
+                                      "colorError": "MuiTypography-colorError",
+                                      "colorInherit": "MuiTypography-colorInherit",
+                                      "colorPrimary": "MuiTypography-colorPrimary",
+                                      "colorSecondary": "MuiTypography-colorSecondary",
+                                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                      "displayBlock": "MuiTypography-displayBlock",
+                                      "displayInline": "MuiTypography-displayInline",
+                                      "gutterBottom": "MuiTypography-gutterBottom",
+                                      "h1": "MuiTypography-h1",
+                                      "h2": "MuiTypography-h2",
+                                      "h3": "MuiTypography-h3",
+                                      "h4": "MuiTypography-h4",
+                                      "h5": "MuiTypography-h5",
+                                      "h6": "MuiTypography-h6",
+                                      "noWrap": "MuiTypography-noWrap",
+                                      "overline": "MuiTypography-overline",
+                                      "paragraph": "MuiTypography-paragraph",
+                                      "root": "MuiTypography-root",
+                                      "srOnly": "MuiTypography-srOnly",
+                                      "subtitle1": "MuiTypography-subtitle1",
+                                      "subtitle2": "MuiTypography-subtitle2",
+                                    }
+                                  }
+                                  color="textPrimary"
+                                  component="span"
+                                  variant="body2"
+                                >
+                                  <span
+                                    className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextPrimary"
+                                  >
+                                     
+                                     -
+                                  </span>
+                                </ForwardRef(Typography)>
+                              </WithStyles(ForwardRef(Typography))>
+                              <span>
+                                 
+                                Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+                                 
+                              </span>
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </div>
+                    </ForwardRef(ListItemText)>
+                  </WithStyles(ForwardRef(ListItemText))>
+                </li>
+              </ForwardRef(ListItem)>
+            </WithStyles(ForwardRef(ListItem))>
+          </Memo(Grid)>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
   </Messages>
 </Provider>
 `;
