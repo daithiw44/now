@@ -7,7 +7,6 @@ import 'sanitize.css/sanitize.css';
 
 import { store, history } from './store/store';
 import App from './containers/app';
-import UserEmails from './components/useremails/useremails';
 
 import './index.css';
 
@@ -19,7 +18,6 @@ render(
       <>
         <Switch>
           <Route exact path="/" render={() => (<App />)} />
-          <Route exact path="/useremails" component={UserEmails} />)} />
         </Switch>
       </>
     </ConnectedRouter>
