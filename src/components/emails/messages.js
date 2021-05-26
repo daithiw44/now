@@ -25,11 +25,12 @@ export const Messages = () => {
   const loading = useSelector(state => state.messages.loading)
   const error = useSelector(state => state.messages.error)
   const usersEmails= useSelector(usersEmailSelector());
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getMemberData())
-  }, [dispatch])
+  }, []);
+
   return loading ? 
     (
       <div style={{
@@ -37,15 +38,15 @@ export const Messages = () => {
         alignItems: 'center',
         justifyContent: 'center',
       }}>
-      <CircularProgress />
-        </div>
+        <CircularProgress />
+      </div>
     ): error ? 
     (
       <h2> Error Loading </h2>
-     ):
+    ):
     (
-   <List  className={classes.root} data-test="messageList"> 
-     <Grid emails = {usersEmails}/>
-   </List>
- )
+      <List  className={classes.root} data-test="messageList"> 
+        <Grid emails = {usersEmails}/>
+      </List>
+    )
 }

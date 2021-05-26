@@ -9,33 +9,33 @@ import Tooltip from '@material-ui/core/Tooltip';
 
 const Grid = (props) =>  {
   return(
-      props.emails.map((msg, index)=> ( 
-        <ListItem alignItems="flex-start" key={msg.id}>
-        <Tooltip title={msg.email} aria-label={msg.email} arrow>
+    props.emails.map((msg, index)=> ( 
+      <ListItem alignItems="flex-start" key={msg.id}>
+        <ListItemAvatar>
           <>
-          <ListItemAvatar>
-            <Avatar title={`${msg.firstName} ${msg.lastName}`} alt={`${msg.firstName} ${msg.lastName}`} src={msg.avatar} />
-              </ListItemAvatar>
-                </>
-                </Tooltip>
-          <ListItemText
-                primary={msg.dtFormat}
-                secondary={
-                  <>
-                    <Typography
-                      component="span"
-                      variant="body2"
-                      color="textPrimary"
-                    >
-                        {msg.firstName} {msg.lastName} - 
-                      </Typography>
-                    <span> {msg.message} </span>
-                    </>
-                }
-                    />
+            <Tooltip title={msg.email} aria-label={msg.email} arrow>
+              <Avatar alt={`${msg.firstName} ${msg.lastName}`} src={msg.avatar} />
+            </Tooltip>
+          </>
+        </ListItemAvatar>
+        <ListItemText
+          primary={msg.dtFormat}
+          secondary={
+            <>
+              <Typography
+                component="span"
+                variant="body2"
+                color="textPrimary"
+              >
+                {msg.firstName} {msg.lastName} - 
+              </Typography>
+              <span> {msg.message} </span>
+            </>
+          }
+        />
 
-                        </ListItem> 
-                          ))
+      </ListItem> 
+    ))
   )
 }
 

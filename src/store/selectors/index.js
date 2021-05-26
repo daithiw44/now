@@ -6,7 +6,7 @@ export const getFormattedMessages = emails => emails.map((msg) => {
     msg.dtFormat = formatDate(msg.timestamp)
   }
   return msg;
-}).sort(dateSort)
+}).sort(dateSort);
 
 // Create Selector Return Function
 export const createSelectorFunction = (emailsMsg, members) => {

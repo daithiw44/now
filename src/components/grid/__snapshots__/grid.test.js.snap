@@ -5,19 +5,18 @@ exports[`SharedButton Component renders 1`] = `
   alignItems="flex-start"
   key="555f4e1b-90a6-4079-850d-54001f29ce44"
 >
-  <WithStyles(ForwardRef(Tooltip))
-    aria-label="awilliams8@indiegogo.com"
-    arrow={true}
-    title="awilliams8@indiegogo.com"
-  >
-    <WithStyles(ForwardRef(ListItemAvatar))>
+  <WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Tooltip))
+      aria-label="awilliams8@indiegogo.com"
+      arrow={true}
+      title="awilliams8@indiegogo.com"
+    >
       <WithStyles(ForwardRef(Avatar))
         alt="Aaron Williams"
         src="http://dummyimage.com/100x100.jpg/dddddd/000000"
-        title="Aaron Williams"
       />
-    </WithStyles(ForwardRef(ListItemAvatar))>
-  </WithStyles(ForwardRef(Tooltip))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(ForwardRef(ListItemAvatar))>
   <WithStyles(ForwardRef(ListItemText))
     primary="26 February 2016, 10:05"
     secondary={
